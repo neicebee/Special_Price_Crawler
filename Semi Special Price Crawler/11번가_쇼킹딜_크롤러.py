@@ -81,7 +81,7 @@ if len(product) == len(href) == len(flag) == len(sale) == len(time) == len(count
         print("링크: " + href[i])
         print("================================")
 
-        driver.close()
+    driver.close()
 else:
     print("Error!")
     driver.close()
